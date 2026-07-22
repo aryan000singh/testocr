@@ -1,7 +1,6 @@
 [functions]
   node_bundler = "esbuild"
-  # Add the native canvas and pdf-parse modules here:
-  external_node_modules = ["express", "mongoose", "@napi-rs/canvas", "pdf-parse"]
+  external_node_modules = ["@napi-rs/canvas"]
 
 [[redirects]]
   from = "/api/*"
